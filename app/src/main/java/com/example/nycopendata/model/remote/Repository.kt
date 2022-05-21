@@ -12,6 +12,7 @@ interface Repository {
 }
 
 //Implementation to get School and SAT data loaded successfully otherwise provide an error
+//Separate objects from network call to provide cleaner architecture
 class RepositoryImpl @Inject constructor(
     private val service: NycApi
 ) : Repository {

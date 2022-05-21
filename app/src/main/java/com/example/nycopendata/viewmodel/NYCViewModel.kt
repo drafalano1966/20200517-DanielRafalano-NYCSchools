@@ -10,6 +10,9 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
+
+//Bridge between data and the view.
+// Will be holding the logic to retrieve the data from repository
 @HiltViewModel
 class NYCViewModel @Inject constructor(
     private val repository: Repository,

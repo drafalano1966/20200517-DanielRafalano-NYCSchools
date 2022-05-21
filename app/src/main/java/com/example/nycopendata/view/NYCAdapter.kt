@@ -10,6 +10,7 @@ import com.example.nycopendata.model.remote.SchoolListResponse
 //Adapter to update data
 //creating viewHolders
 //And bind the viewHolder
+//Populating the data
 class NYCAdapter(
     private val onSchoolClicked: OnSchoolClicked,
     private val items: MutableList<SchoolListResponse> = mutableListOf()

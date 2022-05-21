@@ -18,6 +18,10 @@ import dagger.hilt.android.AndroidEntryPoint
 //Setting up the models that present a list of schools and
 //provide an option to click and to each school details.
 //Validation is also provided.
+
+//Initializing the data
+//No need to find findviewbyID
+//Observing the data for changes and making changes to UI
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity(), OnSchoolClicked {
 
